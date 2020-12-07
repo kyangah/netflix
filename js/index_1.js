@@ -3,6 +3,13 @@ var faqList = document.getElementsByClassName('faq_list');
 var openStateIcon = document.getElementsByClassName('openstate_icon');
 var openState = [0,0,0,0,0,0]; // List 오픈 상태 저장 배열 변수
 
+window.load = main();
+
+function main() {
+
+   console.log("Document Loaded");
+}
+
 function accOpen(clickNumber) {
 
    // if ( openState[clickNumber] == 0)
